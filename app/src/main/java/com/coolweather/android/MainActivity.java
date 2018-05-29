@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         //缓存数据判断
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+        //缓存数据判断
         if (prefs.getString("weather", null) != null) {
             //不为空说明之前已经请求过天气数据
             //直接跳转到WeatherAcitivity
