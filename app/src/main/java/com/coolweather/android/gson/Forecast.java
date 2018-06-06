@@ -66,4 +66,5 @@ public class Forecast {
 
         public String spd;//风速
     }
+
 }
